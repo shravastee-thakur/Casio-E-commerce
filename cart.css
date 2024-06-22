@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+i {
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: #fff;
+    padding: 0 40px;
+}
+
+/* casio nav */
+
+.top {
+    width: 100%;
+    height: 70px;
+    background-color: midnightblue;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-left: 57px;
+    padding-right: 57px;
+    padding-top: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cart {
+    position: relative;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.cartAmount {
+    position: absolute;
+    top: -6px;
+    right: -10px;
+    font-size: 12px;
+    background-color: red;
+    color: #fff;
+    padding: 1px 5px;
+    border-radius: 50%;
+}
+
+
+/* navbar */
+
+header nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+header nav ul li {
+    padding-left: 50px;
+    font-size: 0.9rem;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+
+header nav ul li a i {
+    font-size: 1.5rem;
+}
+header nav ul button {
+    width: 60px;
+    height: 25px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.homeBtn {
+    background-color: red;
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.shopping-cart {
+    display: grid;
+    grid-template-columns: repeat(1, 320px);
+    justify-content: center;
+    gap: 15px;
+}
+
+.cart-item {
+    border: 1px solid midnightblue;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.title-x {
+    display: flex;
+    gap: 50px;
+}
+
+.details p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.checkout {
+    background-color: midnightblue;
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.removeAll {
+    background-color: red;
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
